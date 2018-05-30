@@ -1,0 +1,8 @@
+[global]
+   workgroup = $workgroup_u
+   client signing = yes
+   client use spnego = yes
+   use kerberos keytab = true
+   log file = /var/log/samba/%m.log
+   realm = $domain_u
+   security = ads
